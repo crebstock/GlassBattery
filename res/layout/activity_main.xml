@@ -1,0 +1,46 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <Button android:id="@+id/clearSharedPreferences"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Clear Data"
+            />
+
+    <Button android:id="@+id/removeTokenButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Invalidate Token"
+            />
+
+    <!--<Button android:id="@+id/registerReceiver"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:text="Launch Service"-->
+            <!--/>-->
+
+    <Button android:id="@+id/testDumpFileLog"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Dump Log to SD"
+            />
+
+    <!--<Button android:id="@+id/testClearFileLog"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:text="Test Clear Log"-->
+            <!--/>-->
+
+    <ImageView android:layout_width="match_parent"
+               android:layout_height="match_parent"
+               android:src="@drawable/sandglass"
+               android:scaleType="centerInside"
+               />
+
+
+</LinearLayout>
